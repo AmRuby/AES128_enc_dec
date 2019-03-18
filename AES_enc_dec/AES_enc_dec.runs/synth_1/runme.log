@@ -1,0 +1,392 @@
+
+*** Running vivado
+    with args -log dec_round.vds -m64 -mode batch -messageDb vivado.pb -notrace -source dec_round.tcl
+
+
+****** Vivado v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source dec_round.tcl -notrace
+Command: synth_design -top dec_round -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 251.590 ; gain = 14.957
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'dec_round' [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/dec_round.vhd:20]
+INFO: [Synth 8-638] synthesizing module 'InvSub_addRk' [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/InvSub_addRk.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'Inv_Sub_4bytes_complete' [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/new/Inv_Sub_4bytes_complete.vhd:13]
+INFO: [Synth 8-638] synthesizing module 'Inv_Sub_4bytes' [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/Inv_Sub_4bytes.vhd:13]
+INFO: [Synth 8-638] synthesizing module 'Inv_Sbox' [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/Inv_Sbox.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Inv_Sbox' (1#1) [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/Inv_Sbox.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Inv_Sub_4bytes' (2#1) [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/Inv_Sub_4bytes.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Inv_Sub_4bytes_complete' (3#1) [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/new/Inv_Sub_4bytes_complete.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'InvSub_addRk' (4#1) [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/InvSub_addRk.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'inv_mix_column_complete' [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/new/inv_mix_column_complete.vhd:13]
+INFO: [Synth 8-638] synthesizing module 'inv_mix_column' [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/inv_mix_column.vhd:13]
+INFO: [Synth 8-638] synthesizing module 'GF_mul' [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/gf_mul.vhd:13]
+INFO: [Synth 8-638] synthesizing module 'xD' [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/xD.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'xD' (5#1) [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/xD.vhd:37]
+INFO: [Synth 8-638] synthesizing module 'xE' [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/xE.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'xE' (6#1) [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/xE.vhd:36]
+INFO: [Synth 8-638] synthesizing module 'x9' [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/x9.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'x9' (7#1) [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/x9.vhd:37]
+INFO: [Synth 8-638] synthesizing module 'xB' [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/xB.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'xB' (8#1) [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/xB.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'GF_mul' (9#1) [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/gf_mul.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'inv_mix_column' (10#1) [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/inv_mix_column.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'inv_mix_column_complete' (11#1) [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/new/inv_mix_column_complete.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'dec_round' (12#1) [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/dec_round.vhd:20]
+WARNING: [Synth 8-3331] design dec_round has unconnected port enc
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 286.766 ; gain = 50.133
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 286.766 ; gain = 50.133
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/constrs_1/new/lfsr.xdc]
+Finished Parsing XDC File [C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/constrs_1/new/lfsr.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 632.992 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 632.992 ; gain = 396.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 632.992 ; gain = 396.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 632.992 ; gain = 396.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 632.992 ; gain = 396.359
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 4     
+	   4 Input      8 Bit         XORs := 16    
++---Registers : 
+	              128 Bit    Registers := 1     
++---Muxes : 
+	   2 Input    128 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module dec_round 
+Detailed RTL Component Info : 
++---Registers : 
+	              128 Bit    Registers := 1     
++---Muxes : 
+	   2 Input    128 Bit        Muxes := 1     
+Module InvSub_addRk 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 4     
+Module inv_mix_column 
+Detailed RTL Component Info : 
++---XORs : 
+	   4 Input      8 Bit         XORs := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 632.992 ; gain = 396.359
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design dec_round has unconnected port enc
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 632.992 ; gain = 396.359
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 632.992 ; gain = 396.359
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------------------+------------+---------------+----------------+
+|Module Name             | RTL Object | Depth x Width | Implemented As | 
++------------------------+------------+---------------+----------------+
+|Inv_Sbox                | rom        | 256x8         | LUT            | 
+|xD                      | rom__1     | 256x8         | LUT            | 
+|xE                      | rom__2     | 256x8         | LUT            | 
+|x9                      | rom__3     | 256x8         | LUT            | 
+|xB                      | rom__4     | 256x8         | LUT            | 
+|InvSub_addRk            | rom        | 256x8         | LUT            | 
+|InvSub_addRk            | rom__80    | 256x8         | LUT            | 
+|InvSub_addRk            | rom__81    | 256x8         | LUT            | 
+|InvSub_addRk            | rom__82    | 256x8         | LUT            | 
+|InvSub_addRk            | rom__83    | 256x8         | LUT            | 
+|InvSub_addRk            | rom__84    | 256x8         | LUT            | 
+|InvSub_addRk            | rom__85    | 256x8         | LUT            | 
+|InvSub_addRk            | rom__86    | 256x8         | LUT            | 
+|InvSub_addRk            | rom__87    | 256x8         | LUT            | 
+|InvSub_addRk            | rom__88    | 256x8         | LUT            | 
+|InvSub_addRk            | rom__89    | 256x8         | LUT            | 
+|InvSub_addRk            | rom__90    | 256x8         | LUT            | 
+|InvSub_addRk            | rom__91    | 256x8         | LUT            | 
+|InvSub_addRk            | rom__92    | 256x8         | LUT            | 
+|InvSub_addRk            | rom__93    | 256x8         | LUT            | 
+|InvSub_addRk            | rom__94    | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__95    | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__96    | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__97    | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__98    | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__99    | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__100   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__101   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__102   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__103   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__104   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__105   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__106   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__107   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__108   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__109   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__110   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__111   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__112   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__113   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__114   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__115   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__116   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__117   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__118   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__119   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__120   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__121   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__122   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__123   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__124   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__125   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__126   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__127   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__128   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__129   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__130   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__131   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__132   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__133   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__134   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__135   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__136   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__137   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__138   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__139   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__140   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__141   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__142   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__143   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__144   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__145   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__146   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__147   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__148   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__149   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__150   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__151   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__152   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__153   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__154   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__155   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__156   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__157   | 256x8         | LUT            | 
+|inv_mix_column_complete | rom__158   | 256x8         | LUT            | 
++------------------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 632.992 ; gain = 396.359
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 632.992 ; gain = 396.359
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 632.992 ; gain = 396.359
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:39 . Memory (MB): peak = 632.992 ; gain = 396.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:39 . Memory (MB): peak = 632.992 ; gain = 396.359
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:37 ; elapsed = 00:00:42 . Memory (MB): peak = 638.363 ; gain = 401.730
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 638.363 ; gain = 401.730
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 638.363 ; gain = 401.730
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 638.363 ; gain = 401.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports : Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 638.363 ; gain = 401.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 638.363 ; gain = 401.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     1|
+|2     |LUT2  |     4|
+|3     |LUT3  |    31|
+|4     |LUT4  |    65|
+|5     |LUT5  |   112|
+|6     |LUT6  |  1091|
+|7     |MUXF7 |   206|
+|8     |MUXF8 |    32|
+|9     |FDRE  |   128|
+|10    |IBUF  |   260|
+|11    |OBUF  |   128|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |  2058|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 638.363 ; gain = 401.730
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:28 ; elapsed = 00:00:35 . Memory (MB): peak = 638.363 ; gain = 41.359
+Synthesis Optimization Complete : Time (s): cpu = 00:00:38 ; elapsed = 00:00:43 . Memory (MB): peak = 638.363 ; gain = 401.730
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 260 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'dec_round' is not ideal for floorplanning, since the cellview 'dec_round' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+35 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 638.363 ; gain = 392.328
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.090 . Memory (MB): peak = 638.363 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 17 04:50:45 2019...

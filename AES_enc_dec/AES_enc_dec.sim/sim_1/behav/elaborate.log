@@ -1,0 +1,35 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Programs/XilinxVivado2015.2/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto c6f19cf0920947c59525a44e802688bc --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_aes_behav xil_defaultlib.tb_aes -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.aes_lib
+Compiling architecture rtl of entity xil_defaultlib.dual_mem [dual_mem_default]
+Compiling architecture behavioral of entity xil_defaultlib.key_schedule [key_schedule_default]
+Compiling architecture rtl of entity xil_defaultlib.dual_mem [\dual_mem(4,128,10)\]
+Compiling architecture behavioral of entity xil_defaultlib.enc_round [enc_round_default]
+Compiling architecture inv_sbox_beh of entity xil_defaultlib.Inv_Sbox [inv_sbox_default]
+Compiling architecture inv_sub_4bytes_beh of entity xil_defaultlib.Inv_Sub_4bytes [inv_sub_4bytes_default]
+Compiling architecture behavioral of entity xil_defaultlib.Inv_Sub_4bytes_complete [inv_sub_4bytes_complete_default]
+Compiling architecture beh_invsub_addrk of entity xil_defaultlib.InvSub_addRk [invsub_addrk_default]
+Compiling architecture beh_xd of entity xil_defaultlib.xD [xd_default]
+Compiling architecture beh_xe of entity xil_defaultlib.xE [xe_default]
+Compiling architecture beh_x9 of entity xil_defaultlib.x9 [x9_default]
+Compiling architecture beh_xb of entity xil_defaultlib.xB [xb_default]
+Compiling architecture beh_gf_mul of entity xil_defaultlib.GF_mul [gf_mul_default]
+Compiling architecture beh_inv_mix_column of entity xil_defaultlib.inv_mix_column [inv_mix_column_default]
+Compiling architecture behavioral of entity xil_defaultlib.inv_mix_column_complete [inv_mix_column_complete_default]
+Compiling architecture behavioral of entity xil_defaultlib.dec_round [dec_round_default]
+Compiling architecture behavioral of entity xil_defaultlib.AES [aes_default]
+Compiling architecture behavior of entity xil_defaultlib.tb_aes
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot tb_aes_behav

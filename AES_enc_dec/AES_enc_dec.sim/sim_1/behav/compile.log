@@ -1,0 +1,35 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/xE.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity xE
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/xD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity xD
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/xB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity xB
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/x9.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity x9
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/Inv_Sbox.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Inv_Sbox
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/Inv_Sub_4bytes.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Inv_Sub_4bytes
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/gf_mul.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity GF_mul
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/new/Inv_Sub_4bytes_complete.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Inv_Sub_4bytes_complete
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/inv_mix_column.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity inv_mix_column
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/src/dual_mem.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity dual_mem
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/src/aes_lib.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/new/inv_mix_column_complete.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity inv_mix_column_complete
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/InvSub_addRk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InvSub_addRk
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/src/key_schedule.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity key_schedule
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/src/enc_round.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity enc_round
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/sources_1/imports/rtl/dec_round.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity dec_round
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sources_1/imports/imports/AES.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AES
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abdel_000/Documents/Vivado_Projects/AES_enc_dec/AES_enc_dec.srcs/sim_1/imports/imports/src/tb_aes.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_aes

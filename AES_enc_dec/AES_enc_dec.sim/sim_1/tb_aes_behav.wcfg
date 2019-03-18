@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_aes_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="aes_lib" />
+            <top_module name="lfsr_pkg" />
+            <top_module name="tb_aes" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject db_ref_id="1" fp_name="/tb_aes/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_aes/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_aes/block_in" type="array">
+      <obj_property name="ElementShortName">block_in[127:0]</obj_property>
+      <obj_property name="ObjectShortName">block_in[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_aes/key" type="array">
+      <obj_property name="ElementShortName">key[127:0]</obj_property>
+      <obj_property name="ObjectShortName">key[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_aes/enc" type="logic">
+      <obj_property name="ElementShortName">enc</obj_property>
+      <obj_property name="ObjectShortName">enc</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_aes/dec" type="logic">
+      <obj_property name="ElementShortName">dec</obj_property>
+      <obj_property name="ObjectShortName">dec</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_aes/block_out" type="array">
+      <obj_property name="ElementShortName">block_out[127:0]</obj_property>
+      <obj_property name="ObjectShortName">block_out[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_aes/block_ready" type="logic">
+      <obj_property name="ElementShortName">block_ready</obj_property>
+      <obj_property name="ObjectShortName">block_ready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_aes/uut/set_seed" type="logic">
+      <obj_property name="ElementShortName">set_seed</obj_property>
+      <obj_property name="ObjectShortName">set_seed</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_aes/uut/seed" type="array">
+      <obj_property name="ElementShortName">seed[127:0]</obj_property>
+      <obj_property name="ObjectShortName">seed[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_aes/uut/rand_out" type="array">
+      <obj_property name="ElementShortName">rand_out[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rand_out[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_aes/uut/flag_lfsr" type="logic">
+      <obj_property name="ElementShortName">flag_lfsr</obj_property>
+      <obj_property name="ObjectShortName">flag_lfsr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_aes/uut/key_in" type="array">
+      <obj_property name="ElementShortName">key_in[127:0]</obj_property>
+      <obj_property name="ObjectShortName">key_in[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_aes/uut/key_ready" type="logic">
+      <obj_property name="ElementShortName">key_ready</obj_property>
+      <obj_property name="ObjectShortName">key_ready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_aes/uut/key_out" type="array">
+      <obj_property name="ElementShortName">key_out[127:0]</obj_property>
+      <obj_property name="ObjectShortName">key_out[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
